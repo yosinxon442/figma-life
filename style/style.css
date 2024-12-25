@@ -1,0 +1,405 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #121212;
+}
+
+.container{
+    color: #959595;
+    width: 100%;
+    max-width: 1450px;
+    margin: 0 auto;
+    font-family: open sans;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    align-items: center;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    color: #959595;
+    list-style: none;
+    font-size: 20px;
+}
+
+nav button{
+    margin-top: 20px;
+    padding: 12px 35px;
+    border: none;
+    border: 2px solid orange;
+    background-color: #5f57574a;
+    color: #959595;
+    border-radius: 6px;
+    transition: 0.5s;
+}
+
+nav button:hover{
+    background-color: orange;
+    color: #fff;
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.top__box{
+    display: flex;
+}
+
+.top__box__left{
+    width: 50%;
+    height: 600px;
+    padding: 30px;
+}
+
+
+.top__box__left p{
+    font-size: 22px;
+    margin-top: 60px ;
+}
+
+.top__box__left h1{
+    font-size: 60px;
+    background: linear-gradient(to right, red, orange, yellow);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.top__box__right{
+    width: 50%;
+    height: 600px;
+}
+
+.i__tegs{
+    display: flex;
+    gap: 20px;
+}
+
+.i__tegs i{
+    margin: 25px 0 0 30px;
+    font-size: 35px;
+}
+
+.buttons{
+    margin: 30px 0 0 30px;
+    display: flex;
+    gap: 20px;
+}
+
+.buttons button{
+    margin-top: 20px;
+    padding: 12px 35px;
+    border: none;
+    border: 2px solid orange;
+    background-color: #5f57574a;
+    color: #959595;
+    border-radius: 6px;
+    transition: 0.5s;
+}
+
+.buttons button:hover{
+    background-color: orange;
+    color: #fff;
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.top__box__right img{
+    width: 65%;
+    height: 100%;
+}
+
+.btm__box{
+    margin-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.siktion{
+    width: 30%;
+    margin:  24px;
+    height: 300px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #959595;
+    transition: 0.8s;
+}
+
+.siktion:hover{
+    border: 2px solid orange;
+    box-shadow: 0 0 12px orange;
+    color: orange;
+    background-color: #ffffff0b;
+    transform: scale(1.04);
+    transition: 0.8s;
+}
+
+.box img{
+    margin-left: 100px;
+    margin-bottom: 20px;
+}
+
+.box p{
+    text-align: center;
+    font-size: 22px;
+}
+
+.top__btm{
+    margin-top: 60px;
+    text-align: center;
+}
+
+.top__btm p{
+    font-size: 22px;
+    margin-top: 40px ;
+}
+
+.about{
+    margin-top: 60px;
+    display: flex;
+}
+
+.about__p{
+    margin-top: 60px;
+    text-align: center;
+}
+
+.about__box{
+    width: 50%;
+    padding: 30px;
+}
+
+
+.about__box p{
+    font-size: 25px;
+}
+
+.about__box button{
+    margin-top: 30px;
+    padding: 18px 35px;
+    font-size: 15px;
+    border: none;
+    border: 2px solid orange;
+    background-color: #5f57574a;
+    color: #959595;
+    border-radius: 6px;
+    transition: 0.5s;
+}
+
+.about__box button:hover{
+    background-color: orange;
+    color: #fff;
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.bx{
+    padding-top: 100px;
+}
+
+.my__figmas{
+    margin-top: 60px;
+}
+
+
+.nav{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 50px;
+}
+
+.my__file{
+    margin-top: 100px;
+    text-align: center;
+    h
+}
+
+
+
+.my__file h1{
+    font-size: 40px;
+    background: linear-gradient(to right, red, orange, yellow);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.my__file p{
+    margin-top: 30px;
+    color: #959595;
+    font-size: 22px;
+}
+
+.nav ul{
+    padding: 14px 40px;
+    border-radius: 10px;
+    background-color: #9595953d;
+    color: #fff;
+    margin-bottom: 70px;
+    transition: 0.5s;
+}
+
+.nav ul:hover{
+    background-color: orange;
+    color: #fff;
+    transform: scale(1.1);
+    transition: 0.5s;   
+}
+
+.figma__box{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+
+
+
+
+
+
+.carousel-container {
+    position: relative;
+    width: 65%;
+    height: 500px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.carousel {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    width: 100%;
+    height: 100%;
+}
+
+.item {
+    flex: 0 0 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+.button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 70px;
+    height: 70px;
+    border: none;
+    border-radius: 50%;
+    background-color: #95959538;
+    color: white;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: rgba(255, 140, 0, 0.356);
+}
+
+#prev {
+    left: 20px;
+}
+
+#next {
+    right: 20px;
+}
+
+
+footer{
+    margin-top: 60px;
+    background-color: #FFFFFF0A;
+}
+
+.foot{
+    width: 55%;
+    margin: auto;
+}
+
+
+.foot ul{
+    display: flex;
+    margin: 40px 0;
+    justify-content: space-around;
+    padding: 30px 0;
+    list-style: none;
+}
+
+
+.foot ul li{
+    padding: 10px 20px;
+    border-radius: 6px;
+    transition: 0.5s;
+}
+
+.foot ul li:hover{
+    border: 2px solid orange;
+    background-color: #95959545;
+    border-radius: 6px;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.foot__img{
+    display: flex;
+    justify-content: center;
+}
+
+.foot__in{
+    display: flex;
+    justify-content: center;
+}
+
+.foot__log{
+    margin:40px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.foot__num{
+    margin:40px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.foot__log__num{
+    display: flex;
+    justify-content: space-between;
+}
+
+.foot img{
+    margin-top: 50px;
+}
+
+
+
+
+.hamburger div{
+    width: 25px;
+    display: none;
+    height: 3px;
+    background-color: #fff;
+    margin: 5px 0;
+}

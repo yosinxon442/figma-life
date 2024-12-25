@@ -1,0 +1,114 @@
+@media(min-width: 450px) and (max-width: 550px) {
+    nav ul{
+        display: none;
+    }
+
+    nav button{
+        display: none;
+    }
+
+    .hamburger div{
+        width: 30px;
+        background-color: #fff;
+        height: 4px;
+        margin: 7px 0;
+        display: block;
+    }
+
+    .container{
+        width: 100%;
+        max-width: 550px;
+    }
+
+    .top__box{
+        flex-direction: column;
+    }
+
+    .top__box__left{
+        width: 100%;
+        height: 374px;
+
+        text-align: center;
+    }
+
+    .top__box__right{
+        width: 100%;
+        margin-top: 40px;
+    }
+
+    .top__box__left p {
+        font-size: 17px;
+        margin-top: 25px;
+    }
+
+    .top__box__left h1 {
+        font-size: 37px;
+    }
+
+    .top__box__right img {
+        width: 100%;
+        height: 98%;
+    }
+
+    .btm__box{
+        flex-direction: column;
+    }
+
+    .siktion{
+        margin-left: 0px;
+        width: 100%;
+    }
+
+    .about{
+        flex-direction: column;
+    }
+
+    .about__box{
+        width: 95%;
+    }
+
+    .about__box img{
+        width: 100%;
+    }
+
+    .about__box p {
+        font-size: 15px;
+    }
+
+    .bx {
+        padding-top: 0px;
+    }
+
+    .nav{
+        flex-wrap: wrap;
+    }
+
+    .nav ul{
+        font-size: 12px;
+        margin: 20px 20px;
+        padding: 10px 30px;
+    }
+
+    .item{
+        width: 250px;
+    }
+
+    .item img{
+        width: 100%;
+    }
+
+    .foot ul{
+        display: none   ;
+    }
+
+    .foot__log__num{
+        flex-direction: column;
+    }
+
+    .foot__log{
+        margin: 20px;
+        font-size: 15px;
+    }
+}   
+
+
